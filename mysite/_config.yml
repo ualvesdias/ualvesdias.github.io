@@ -1,10 +1,10 @@
 permalink: /:year:month:day/:title
-url: https://ualvesdias.github.io #Your url here
-baseurl: /mysite
+url: #Your url here
+baseurl: /project
 
 # variables
-name: Ulisses Alves
-description: Just a guy learning about infosec
+name: Your Site Name
+description: Your description here
 google_verification: null
 
 
@@ -14,8 +14,8 @@ exclude: ["README.md", "LICENSE"]
 
 # Sass
 sass:
-  sass_dir: _sass
   style: :compressed
+  sass_dir: _sass
 
 # Markdown
 markdown: kramdown

@@ -1,11 +1,11 @@
 tag1:
-  name: web
+  name: tag1
 
 tag2:
-  name: crypto
+  name: tag2
 
 tag3:
-  name: pentest
+  name: tag3
 
 tag4:
-  name: hacking
+  name: tag4
