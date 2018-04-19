@@ -3,8 +3,8 @@
 	<channel>
 		<title>Blog Name</title>
 		<description>Software Developer</description>
-		<link>/mysite</link>
-		<atom:link href="/mysite/feed.xml" rel="self" type="application/rss+xml" />
+		<link></link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Table styles</title>
@@ -270,8 +270,8 @@
 
 </description>
 				<pubDate>Fri, 09 Feb 2018 11:07:00 -0200</pubDate>
-				<link>/mysite/2018/02/table-styles</link>
-				<guid isPermaLink="true">/mysite/2018/02/table-styles</guid>
+				<link>/2018/02/table-styles</link>
+				<guid isPermaLink="true">/2018/02/table-styles</guid>
 			</item>
 		
 			<item>
@@ -290,17 +290,17 @@
 
 &lt;p&gt;Here how it looks like on some portable devices:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mysite/assets/images/iphone_portrait.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPhone 5 portrait&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/iphone_portrait.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPhone 5 portrait&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mysite/assets/images/iphone_landscape.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPhone 5 landscape&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/iphone_landscape.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPhone 5 landscape&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mysite/assets/images/ipad_portrait.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPad mini portrait&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ipad_portrait.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPad mini portrait&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mysite/assets/images/ipad_landscape.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPad mini landscape&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ipad_landscape.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPad mini landscape&lt;/em&gt;&lt;/p&gt;
 </description>
 				<pubDate>Thu, 01 Dec 2016 14:25:06 -0200</pubDate>
-				<link>/mysite/2016/12/jekyll-clean-theme</link>
-				<guid isPermaLink="true">/mysite/2016/12/jekyll-clean-theme</guid>
+				<link>/2016/12/jekyll-clean-theme</link>
+				<guid isPermaLink="true">/2016/12/jekyll-clean-theme</guid>
 			</item>
 		
 			<item>
@@ -367,8 +367,8 @@
 &lt;code class=&quot;key highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;key highlighter-rouge&quot;&gt;R&lt;/code&gt; = finds the last command matching the entered letters.&lt;/p&gt;
 </description>
 				<pubDate>Wed, 02 Nov 2016 14:25:06 -0200</pubDate>
-				<link>/mysite/2016/11/text-formatting</link>
-				<guid isPermaLink="true">/mysite/2016/11/text-formatting</guid>
+				<link>/2016/11/text-formatting</link>
+				<guid isPermaLink="true">/2016/11/text-formatting</guid>
 			</item>
 		
 			<item>
@@ -460,8 +460,8 @@
 
 </description>
 				<pubDate>Sat, 01 Oct 2016 13:25:06 -0300</pubDate>
-				<link>/mysite/2016/10/code-syntax-highlighting</link>
-				<guid isPermaLink="true">/mysite/2016/10/code-syntax-highlighting</guid>
+				<link>/2016/10/code-syntax-highlighting</link>
+				<guid isPermaLink="true">/2016/10/code-syntax-highlighting</guid>
 			</item>
 		
 			<item>
@@ -546,18 +546,18 @@
 &lt;/style&gt;
 
 &lt;ul class=&quot;pattern-list&quot;&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/mysite/assets/css/pics/background/3px-tile.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/mysite/assets/css/pics/background/asfalt-light.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/mysite/assets/css/pics/background/black-linen.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/mysite/assets/css/pics/background/food.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/mysite/assets/css/pics/background/gplay.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/mysite/assets/css/pics/background/green-dust-and-scratches.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/mysite/assets/css/pics/background/hexellence.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/mysite/assets/css/pics/background/random-grey-variations.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/mysite/assets/css/pics/background/shley-tree-1.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/mysite/assets/css/pics/background/subtle-grey.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/mysite/assets/css/pics/background/xv.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/mysite/assets/css/pics/background/triangles.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/3px-tile.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/asfalt-light.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/black-linen.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/food.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/gplay.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/green-dust-and-scratches.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/hexellence.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/random-grey-variations.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/shley-tree-1.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/subtle-grey.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/xv.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li class=&quot;col-sm-6&quot;&gt;&lt;div class=&quot;pattern&quot; style=&quot;background-image:url('/assets/css/pics/background/triangles.png')&quot;&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;script&gt;
@@ -579,8 +579,8 @@
 
 </description>
 				<pubDate>Tue, 20 Sep 2016 13:25:06 -0300</pubDate>
-				<link>/mysite/2016/09/customizations</link>
-				<guid isPermaLink="true">/mysite/2016/09/customizations</guid>
+				<link>/2016/09/customizations</link>
+				<guid isPermaLink="true">/2016/09/customizations</guid>
 			</item>
 		
 			<item>
@@ -607,7 +607,7 @@ Out-of-the box it has:&lt;/p&gt;
     &lt;a title=&quot;Last.fm&quot; href=&quot;http://lastfm.com/user/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-lastfm fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;RSS&quot; href=&quot;http://localhost:4000/feed.xml&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-rss fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a title=&quot;RSS&quot; href=&quot;https://ualvesdias.github.io/feed.xml&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-rss fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -663,8 +663,8 @@ To turn them on in the header of your post add:&lt;/p&gt;
 &lt;/ol&gt;
 </description>
 				<pubDate>Thu, 15 Sep 2016 13:25:06 -0300</pubDate>
-				<link>/mysite/2016/09/be-social</link>
-				<guid isPermaLink="true">/mysite/2016/09/be-social</guid>
+				<link>/2016/09/be-social</link>
+				<guid isPermaLink="true">/2016/09/be-social</guid>
 			</item>
 		
 			<item>
@@ -688,8 +688,8 @@ To turn them on in the header of your post add:&lt;/p&gt;
 &lt;p&gt;To enable &lt;a href=&quot;http://disqus.com&quot;&gt;Disqus&lt;/a&gt; register on the site and then just put your name in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.xml&lt;/code&gt;. Comments could be switched on and off on per post basis, just put &lt;code class=&quot;highlighter-rouge&quot;&gt;comments: true&lt;/code&gt; to enable them.&lt;/p&gt;
 </description>
 				<pubDate>Mon, 01 Aug 2016 13:25:06 -0300</pubDate>
-				<link>/mysite/2016/08/analytics-tags-comments</link>
-				<guid isPermaLink="true">/mysite/2016/08/analytics-tags-comments</guid>
+				<link>/2016/08/analytics-tags-comments</link>
+				<guid isPermaLink="true">/2016/08/analytics-tags-comments</guid>
 			</item>
 		
 			<item>
@@ -699,7 +699,7 @@ To turn them on in the header of your post add:&lt;/p&gt;
 &lt;p&gt;This theme supports two types of images:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;inline images: &lt;img src=&quot;/mysite/assets/images/batWid1.png&quot; alt=&quot;Battery Widget&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;inline images: &lt;img src=&quot;/assets/images/batWid1.png&quot; alt=&quot;Battery Widget&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;![Battery Widget]({{ '/assets/images/batWid1.png' | relative_url }})&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
@@ -708,7 +708,7 @@ To turn them on in the header of your post add:&lt;/p&gt;
   &lt;li&gt;centered images with caption (optional):&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mysite/assets/images/deer.jpg&quot; alt=&quot;img&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;(°0°)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/deer.jpg&quot; alt=&quot;img&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;(°0°)&lt;/em&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;![img]({{ '/assets/images/deer.jpg' | relative_url }}){: .center-image }*(°0°)*&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -726,8 +726,8 @@ To turn them on in the header of your post add:&lt;/p&gt;
 
 </description>
 				<pubDate>Fri, 01 Jul 2016 13:25:06 -0300</pubDate>
-				<link>/mysite/2016/07/images</link>
-				<guid isPermaLink="true">/mysite/2016/07/images</guid>
+				<link>/2016/07/images</link>
+				<guid isPermaLink="true">/2016/07/images</guid>
 			</item>
 		
 			<item>
@@ -763,8 +763,8 @@ respective owners:&lt;/p&gt;
 &lt;/ul&gt;
 </description>
 				<pubDate>Sun, 01 Nov 2015 14:25:06 -0200</pubDate>
-				<link>/mysite/2015/11/installation</link>
-				<guid isPermaLink="true">/mysite/2015/11/installation</guid>
+				<link>/2015/11/installation</link>
+				<guid isPermaLink="true">/2015/11/installation</guid>
 			</item>
 		
 	</channel>
