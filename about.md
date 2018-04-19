@@ -5,4 +5,6 @@ title: About
 ---
 
 # Some info 
-...about how cool you are ;)
+I'm just a guy trying to learn some infosec tricks...
+
+Contact me at ulissesalves@youre.exposed
