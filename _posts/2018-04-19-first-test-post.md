@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Lorem Ipsum"
-tags: web misc infosec
+title: "My First Blog Post"
+tags: web misc infosec crypto linux windows
 ---
 
 # My First Blog Post
