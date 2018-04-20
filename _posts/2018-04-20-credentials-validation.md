@@ -4,7 +4,7 @@ title: "Credentials Validation Without Auth"
 tags: web infosec
 ---
 
-# __Credentials Validation without authentication__
+# Credentials Validation without authentication
 
 As I said in my [first post](purpose), the reason for me to start a blog was a flaw that I've found in one of the Check Point appliances. Because I want to register a CVE, I'm required to have a public PoC explaining the vuln. So, here it is... 
 
@@ -29,3 +29,11 @@ I wasn't able to login into the webapp, but I got a different error message than
 
 ## Okay, but how can a bad guy take advantage of it?
 
+That's the simple part. Really. If an attacker is targeting a company that uses this appliance, he can build a social engineering campaign to gather as much information as possible about all of the employees and he can also create a custom wordlist using these information in order to attempt an online dictionary attack in the login page. This way he can separate all of the credentials that produce the second error message. These credentials can then be used in further attacks. In my case, I could use those credentials to gain access to the user's webmail.
+
+***
+
+Well, that's it. I hope I made myself clear about this Poc. I'll update this post when my request for a CVE is answered.
+
+##
+LLaP
