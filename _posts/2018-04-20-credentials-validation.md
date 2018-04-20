@@ -16,11 +16,11 @@ Basicaly I found a way to validate credentials in the login page of the Check Po
 
 ## How I discovered it?
 
-I was doing a pentest in a public organization in my country and I decided to do some manual enumeration in the login page of the VPN appliance. First I saw that the webapp displays an error message (*Access denied - wrong user name or password*):
+I was doing a pentest in a public organization in my country and I decided to do some manual enumeration in the login page of the VPN appliance. First I saw that the webapp displays an error message (*Access denied - wrong user name or password*) when I tried to input some random credentials:
 
 ![First error message](../assets/img/firsterror.jpg)
 
- when I tried to input some random credentials. So far nothing wrong. Things started to bother me when I used some credentials I got in a phishing campaign in the login page and the webapp showed me a different message (*User is unauthorized*):
+ So far nothing wrong. Things started to bother me when I used some credentials I got in a phishing campaign in the login page and the webapp showed me a different message (*User is unauthorized*):
 
 ![First error message](../assets/img/seconderror.jpg)
 
