@@ -35,5 +35,4 @@ That's the simple part. Really. If an attacker is targeting a company that uses 
 
 Well, that's it. I hope I made myself clear about this Poc. I'll update this post when my request for a CVE is answered.
 
-##
-LLaP
+## LLaP
