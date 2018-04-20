@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Credentials Validation Without Authentication"
+title: "Credentials Validation Without Auth"
 tags: web infosec
 ---
 
