@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Credentials Validation Without Auth"
-tags: web infosec
+tags: web infosec poc
 ---
 # Credentials Validation without authentication
 
