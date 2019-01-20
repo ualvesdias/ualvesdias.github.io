@@ -17,10 +17,7 @@ tag6:
   name: crypto
 
 tag7:
-  name: science
+  name: poc
 
 tag8:
-  name: math
-
-tag9:
-  name: physics
+  name: easyexplained

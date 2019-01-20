@@ -1,11 +1,11 @@
 ---
 layout: default
 title: "Credentials Validation Without Auth"
-tags: web infosec
+tags: web infosec poc
 ---
 # Credentials Validation without authentication
 
-As I said in my [first post](purpose), the reason I decided to start a blog was a flaw that I've found in one of the Check Point appliances. Because I want to register a CVE, I'm required to have a public PoC explaining the vuln. So, here it is... 
+As I said in my [first post](../20180419/purpose), the reason I decided to start a blog was a flaw that I've found in one of the Check Point appliances. Because I want to register a CVE, I'm required to have a public PoC explaining the vuln. So, here it is... 
 
 
 ## What I discovered?
@@ -34,4 +34,4 @@ That's the simple part. Really. If an attacker is targeting a company that uses 
 
 Well, that's it. I hope I made myself clear about this Poc. I'll update this post when my request for a CVE is answered.
 
-## LLaP
+## UOLAYFIRERTRUAESBEILHIDUBGSCNOKLYFUROUSOECYACSSSTUSNOIKHOYLHOSAUEBMLOEC
