@@ -30,6 +30,6 @@ Based on this, we now know all the information needed to play the game.
 
 ***
 
-Well, that's it. I hope I made myself clear about this Poc. I'll update this post when my request for a CVE is answered.
+Well, that's it.
 
 ## UOLAYFIRERTRUAESBEILHIDUBGSCNOKLYFUROUSOECYACSSSTUSNOIKHOYLHOSAUEBMLOEC
