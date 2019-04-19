@@ -7,32 +7,26 @@ Hey you! So, here I am with my first post of 2019. And here, I'm going to write 
   
 ## But first the background story
   
-I'm taking an interest in how machine learning systems work and mostly how I can apply them to data science problems. Digging up the internet on this, I've found [a very cool publication](http://cs.williams.edu/~freund/cs136-073/GardnerHexapawn.pdf) from 1962 where professor Martin Gardner explains how to build a machine out of matchboxes (that's right, matchboxes) that can learn to play a game from scratch and even master it.  
+I'm taking an interest in how machine learning systems work and mostly how I can apply them to data science problems. Digging up the internet on the fundamentals, I've found [a very cool publication](http://cs.williams.edu/~freund/cs136-073/GardnerHexapawn.pdf) from 1962 where professor Martin Gardner explains how to build a machine out of matchboxes (that's right, matchboxes) that can learn to play a game from scratch and even master it.  
 The process is actually very clever and it's an adaptation of a previous experiment where a guy builds a machine with more than 300 matchboxes to play tic-tac-toe to perfection.  
 
+## What I did
+
+In short, I've written a python code that mimics Prof. Gardner experiment, just like as if I was using real matchboxes. However, I'm taking a more technical approach here, that means that I am literally teaching a computer how to play and master a game.
 
 
-## What I discovered?
+## The game
 
-Basicaly I found a way to validate credentials in the login page of the Check Point VPN appliance. By validate I mean that I can know whether a pair username:password is valid or not inside the web application without the need of authentication.
-
-
-## How I discovered it?
-
-I was doing a pentest in a public organization in my country and I decided to do some manual enumeration in the login page of the VPN appliance. First I saw that the webapp displays an error message (*Access denied - wrong user name or password*) when I tried to input some random credentials:
-
-![First error message](../assets/img/firsterror.jpg)
-
- So far nothing wrong. Things started to bother me when I used some credentials I got in a phishing campaign in the login page and the webapp showed me a different message (*User is unauthorized*):
-
-![First error message](../assets/img/seconderror.jpg)
-
-I wasn't able to login into the webapp, but I got a different error message than before... This is at least a weird behavior. So based on this, I tried some combinations: wrong_username:valid_password, valid_username:invalid_password, invalid_username:invalid_password. In all of these attempts I got the first error message. Only when I used a credential from the ones I got from the phishing campaign I was able to receive the second message. So, based on this, I concluded that those credentials must exist somewhere inside the appliance, in a database, but the user isn't allowed to login.
-
-
-## Okay, but how can a bad guy take advantage of it?
-
-That's the simple part. Really. If an attacker is targeting a company that uses this appliance, he can build a social engineering campaign to gather as much information as possible about all of the employees and he can also create a custom wordlist using these information in order to attempt an online dictionary attack in the login page. This way he can separate all of the credentials that produce the second error message. These credentials can then be used in further attacks. In my case, I could use those credentials to gain access to the user's webmail.
+The game used to teach the machine is actually an much simpler version of chess. It's called Hexapawn and it's played on a 3 by 3 board of black and white squares and a total of six pawns, three for each player. They are placed on the first and last rows of the board. The moviments of the pieces are just like those of the pawns on a standard chess game: they move only forward one square at a time and they can also capture an opponent piece if it stands on one of the two diagonal squares of the next row. The exceptions are that in Hexapawn there's no en passant move and there are no two square moves for their first movement. Also, there's no pawn promotion.  
+  
+To win a game, a player must be in one of the following situations:  
+1 - The player was able to capture all of the opponents pawns;  
+2 - The player was able to move one of its pawns to the last row of the board relative to him; or  
+3 - The player was able to make a move that leaves the opponent with no legal movement for his next move.  
+  
+Based on this, we now know all the information needed to play the game.  
+  
+## 
 
 ***
 
