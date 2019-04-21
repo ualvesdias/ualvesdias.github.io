@@ -1,6 +1,6 @@
-# Windows 95 Theme for Jekyll
+# You're Exposed
 
-![ss](https://github.com/h01000110/windows-95/raw/gh-pages/screenshot_2.png)
+This is a infosec blog... Here I'll post study cases, information and anything I find relevant about the world of information security.
 
 Homepage: [Windows 95](https://h01000110.github.io/20170917/windows-95)
 
