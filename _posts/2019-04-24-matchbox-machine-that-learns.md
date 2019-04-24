@@ -12,7 +12,7 @@ The process is actually very clever and it's an adaptation of a previous experim
 
 # What I did
 
-In short, I've written a python code that mimics Prof. Gardner experiment, just like as if I was using real matchboxes. However, I'm taking a more technical approach here, what means that I am literally teaching a computer how to play and master a game.
+In short, I've written a python code that mimics Prof. Gardner's experiment, just like as if I was using real matchboxes. I'm taking a more technical approach here, which means that I am teaching a computer how to play and master a game.
 
 
 # The game
