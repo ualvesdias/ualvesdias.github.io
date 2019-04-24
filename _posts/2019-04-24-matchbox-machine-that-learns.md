@@ -7,7 +7,7 @@ Hey you! So, here I am with my first post of 2019. And here, I'm going to write 
   
 # But first the background story
   
-I'm taking an interest in how machine learning systems work and mostly how I can apply them to data science problems. Digging up the internet on the fundamentals, I've found [a very cool publication](http://cs.williams.edu/~freund/cs136-073/GardnerHexapawn.pdf) from 1962 where professor Martin Gardner explains how to build a machine out of matchboxes (that's right, matchboxes) that can learn to play a game from scratch and even master it.  
+I'm taking an interest in how machine learning systems work and mostly how I can apply them to data science problems. Digging up the internet on the fundamentals, I've found [a very cool publication](http://cs.williams.edu/~freund/cs136-073/GardnerHexapawn.pdf) from 1962 where professor Martin Gardner explains how to build a machine out of matchboxes (that's right, matchboxes) that can learn how to play a game from scratch and even master it.  
 The process is actually very clever and it's an adaptation of a previous experiment where a guy builds a machine with more than 300 matchboxes to play tic-tac-toe to perfection.  
 
 # What I did
@@ -17,7 +17,7 @@ In short, I've written a python code that mimics Prof. Gardner's experiment, jus
 
 # The game
 
-The game used to teach the machine is actually an much simpler version of chess. It's called Hexapawn and it's played on a 3 by 3 board of black and white squares and a total of six pawns, three for each player. They are placed on the first and last rows of the board. The moviments of the pieces are just like those of the pawns on a standard chess game: they move only forward one square at a time and they can also capture an opponent piece if it stands on one of the two diagonal squares of the next row. The exceptions are that in Hexapawn there's no en passant move and there are no two square moves for their first movement. Also, there's no pawn promotion.  
+The game used to teach the machine is actually a much simpler version of chess. It's called Hexapawn and it's played on a 3 by 3 board of black and white squares and a total of six pawns, three for each player. They are placed on the first and last rows of the board. The moviments of the pieces are just like those of the pawns on a standard chess game: they move only forward one square at a time and they can also capture an opponent piece if it stands on one of the two diagonal squares of the next row. The exceptions are that in Hexapawn there's no en passant move and there are no two square moves for their first movement. Also, there's no pawn promotion.  
   
 To win a game, a player must be in one of the following situations:  
 1 - The player was able to capture all of the opponent's pawns;  
@@ -46,7 +46,7 @@ For the second case, instead of removing things, we're adding. But we're going t
   
 # The Python code
 
-When I read about this machine learning game, the first thing that came to my mind was that I wanted to implement this in Python and put it in a Telegram bot. So [here](https://github.com/ualvesdias/HexaPawnGame) is the code and [here](https://t.me/hexapawnbot) is the Telegram bot. To represent the matchboxes I used a python dictionary. I came up with a system to represent the board states and the moves with numbers, and for each of the machine's losses, I can remove the moves that cause the loss as well as all of the other moves in the case of winning (I opted not to go with the probability pproach. Also, keep in mind that this choice is a negative reinforcement. I'm removing items from the system that will cause the machine to "learn" and apply this learning next time it bumps into the same situation).
+When I read about this machine learning game, the first thing that came to my mind was that I wanted to implement this in Python and put it in a Telegram bot. So [here](https://github.com/ualvesdias/HexaPawnGame) is the code and [here](https://t.me/hexapawnbot) is the Telegram bot. To represent the matchboxes I used a python dictionary. I came up with a system to represent the board states and the moves with numbers, and for each of the machine's losses, I can remove the moves that cause the loss as well as all of the other moves in the case of winning (I opted not to go with the probability approach. Also, keep in mind that this choice is a negative reinforcement. I'm removing items from the system that will cause the machine to "learn" and apply this learning next time it bumps into the same situation).
 
 ***
 
