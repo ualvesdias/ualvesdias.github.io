@@ -65,6 +65,6 @@ So, after a while, burp sends the correct code to the server and we can see that
   
 ***
 
-Well, that's it. I'll try to contact the people responsible for the website security to inform them of my findings. I hope I was able to explain the process and the concepts behind it in a easy way. See you next time!  
+Well, that's it. I'll try to contact the people responsible for the website security to inform them of my findings. I hope I was able to explain the process and the concepts behind it in an easy way. See you next time!  
   
 ## UOLAYFIRERTRUAESBEILHIDUBGSCNOKLYFUROUSOECYACSSSTUSNOIKHOYLHOSAUEBMLOEC
