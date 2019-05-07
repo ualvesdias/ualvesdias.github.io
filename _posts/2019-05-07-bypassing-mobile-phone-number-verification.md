@@ -47,9 +47,13 @@ The payload tab of the intruder allows us to generate a list of numbers that wil
   
 In the list, I chose to go from 2000 to 3000 because I already know the right code, which is 2161. This means that we only have to send 162 requests to get to the correct code. But in a real attack, burp would send 10000 requests, each one carrying one code from 0000 to 9999.  
   
+When we start the attack, we can see that burp starts to send the fake requests to the server, each one with its own code.  
+  
+![The attack in process](https://github.com/ualvesdias/ualvesdias.github.io/blob/master/img/Anota%C3%A7%C3%A3o%202019-05-07%20114527.png)  
+
 
 ***
 
-Well, that's it. This was a really fun project to make. I learned so much about the fundamentals of machine learning, and I value the fundamentals a lot! One last thing: if you found an error of any kind or just have a sugestion of improvement for this article or the python code, dont hesitate in contact me at ulisses.alves@youre.exposed. I'll be more than happy to get a feedback from you!  
+Well, that's it. I'll try to contact the people responsible for the website security to inform them of my findings. I hope I was able to explain the process and the concepts behind it in a easy way. See you next time!  
   
 ## UOLAYFIRERTRUAESBEILHIDUBGSCNOKLYFUROUSOECYACSSSTUSNOIKHOYLHOSAUEBMLOEC
