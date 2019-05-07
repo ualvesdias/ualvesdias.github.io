@@ -1,6 +1,6 @@
 # You're Exposed
 
-This is a infosec blog... Here I'll post study cases, information and anything I find relevant about the world of information security.
+This is an infosec blog... Here I'll post study cases, information and anything I find relevant about the world of information security.
 
 Homepage: [Windows 95](https://h01000110.github.io/20170917/windows-95)
 
