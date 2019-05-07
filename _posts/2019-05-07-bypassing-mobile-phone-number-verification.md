@@ -7,7 +7,7 @@ Hey you! In this post I'll show you how I bypassed the phone number verification
   
 # What is phone number verification
   
-When you create an account in some website, sometimes they ask you to verify the phone number that you informe in the registration process. They send a SMS to the number you provided and ask you to type the code that came in that message. This way, they know that the number you informed is really yours. Doing that means that your account is now linked with an official mobile phone number, which is linked to your name. This is a form of identity verification.  
+When you create an account in some website, sometimes they ask you to verify the phone number that you inform in the registration process. They send a SMS to the number you provided and ask you to type the code that came in that message. This way, they know that the number you informed is really yours. Doing that means that your account is now linked with an official mobile phone number, which is linked to your name. This is a form of identity verification.  
 
 # Why do they ask for a mobile number verification
   
