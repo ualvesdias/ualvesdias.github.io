@@ -138,3 +138,8 @@ So, the value extracted from the response by the regex (4) search is used to rep
 # Conclusion
 
 The conclusion here is that Burp Suite is way more powerfull than you and I can imagine. And I don’t even use its full power. And just to be clear, this post is not sponsored by PortSwigger in any way. I’m just stating a fact. They are doing a really good job with this tool.
+
+---
+
+\x07\x44\x42\x01\x59\x13\x44
+UOLAYFIRERTRUAESBEILHIDUBGSCNOKLYFUROUSOECYACSSSTUSNOIKHOYLHOSAUEBMLOEC
