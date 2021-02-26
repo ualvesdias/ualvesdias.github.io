@@ -1,9 +1,9 @@
 permalink: /:year:month:day/:title
-url: https://youre.exposed #Your url here
+url: https://1337.hackermindset.me
 baseurl: /
 
 # variables
-name: You're Exposed!
+name: The Hacker Mindset
 description: Always learning...
 google_verification: null
 
