@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "# Learning from your mistakes as an offensive security professional"
+title: "Learning From Your Mistakes as an Offensive Security Professional"
 tags: methodology learning infosec
 ---
 
