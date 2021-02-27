@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Handling Short Expiration Time of Authorization Tokens"
+title: "# Learning from your mistakes as an offensive security professional"
 tags: methodology learning infosec
 ---
 
