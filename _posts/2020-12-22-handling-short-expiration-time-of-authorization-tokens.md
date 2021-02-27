@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Handling Short Expiration Time of Authorization Tokens"
-tags: poc web infosec
+tags: poc web infosec burpsuite
 ---
 
 How not to waste precious time when testing a web applications or API’s with Burp Suite.
