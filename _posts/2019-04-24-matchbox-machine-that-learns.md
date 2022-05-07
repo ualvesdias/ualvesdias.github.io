@@ -4,8 +4,6 @@ date: 2019-04-24 09:00:00 -0300
 categories: [Machine Learning]
 mermaid: true
 tags: [machine-learning, python]
-author:
-	name: Ulisses Alves
 ---
 
 Hey you! So, here I am with my first post of 2019. And here, I'm going to write about a very cool thing that I learned a few weeks ago.  
