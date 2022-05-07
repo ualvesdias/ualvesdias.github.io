@@ -1,7 +1,11 @@
 ---
-layout: default
-title: "Bypassing phone number verification"
-tags: poc web infosec
+title: "Bypassing Phone Number Verification"
+date: 2019-04-24 09:00:00 -0300
+categories: [Infosec, Pentest]
+mermaid: true
+tags: [machine-learning, python]
+author:
+	name: Ulisses Alves
 ---
 Hey you! In this post I'll show you how I bypassed the phone number verification process in a website. I'm also going to explain why this was possible and what we can do to prevent this type of vulnerability.  
   
