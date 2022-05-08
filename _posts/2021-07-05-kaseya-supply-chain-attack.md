@@ -1,5 +1,6 @@
 ---
 created: 2022-05-07T01:39:05 (UTC -03:00)
+title: "Kaseya Supply Chain Attack"
 tags: []
 source: https://medium.com/@ualvesdias/kaseya-supply-chain-attack-c3ff050cbadf
 author: Ulisses Alves
