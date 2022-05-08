@@ -5,12 +5,6 @@ source: https://medium.com/@ualvesdias/kaseya-supply-chain-attack-c3ff050cbadf
 author: Ulisses Alves
 ---
 
-# Kaseya Supply Chain Attack. Introdução | by Ulisses Alves | Medium
-
-> ## Excerpt
-> Há alguns dias atrás, a comunidade de segurança ao redor do mundo precisou se ocupar com o apelidado PrintNightmare. Uma falha crítica foi identificada no serviço de impressão do sistema operacional…
-
----
 # Kaseya Supply Chain Attack
 
 ![](https://miro.medium.com/max/700/1*sYXZ_rUI2mKNzWwSo_S0PQ.png)
