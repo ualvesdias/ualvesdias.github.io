@@ -12,7 +12,7 @@ pin: false
 
 ## Automating the process of converting a non-interactive reverse shell to a fully interactive TTY.
 
-![](/assets/img/1270/1*NRbYPaweiL76Qh-RIFCY5g.png)
+![](/assets/img/1*NRbYPaweiL76Qh-RIFCY5g.png)
 
 # Introduction
 
@@ -22,7 +22,7 @@ I’ve found the post very interesting because it uses a completely different ap
 
 # The manual process
 
-![](/assets/img/1400/1*oOdObCxGdkI6y2ogdF-Zdw.gif)
+![](/assets/img/1*oOdObCxGdkI6y2ogdF-Zdw.gif)
 _Creating an interactive reverse shell manually_
 
 The above gif shows how you can convert a non-interactive reverse shell into a interactive one. Although it’s a fairly simple process, if you have the need to do it very often, it becomes a pain.
