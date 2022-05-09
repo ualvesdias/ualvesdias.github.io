@@ -13,7 +13,7 @@ pin: false
 
 ## Automating the process of converting a non-interactive reverse shell to a fully interactive TTY.
 
-![](/assets/img/1270/1*NRbYPaweiL76Qh-RIFCY5g.png)
+![](./assets/img/1270/1*NRbYPaweiL76Qh-RIFCY5g.png)
 
 # Introduction
 
@@ -32,19 +32,19 @@ The above gif shows how you can convert a non-interactive reverse shell into a i
 
 Tmux is a terminal multiplexer command line utility that lets you create/control multiple shells from a single screen. One of its most powerful features is the ability to send keystrokes combinations into the shells automatically. Added to that is the feature that lets me create internal environment variables that I can use as short versions of big commands:
 
-![](/assets/img/202273146628890-1*_e4dvKKDBEcKG4Qsm-QIKQ)
+![](/assets/img/202273146628890-1*_e4dvKKDBEcKG4Qsm-QIKQ.png)
 _Command strings being stored as environment variables_
 
 Now I can simply open tmux command prompt and send one of those strings into the currently active tmux pane:
 
-![](/assets/img/206062070718805-1*7oi2fFbRNkF9aRkkk89Lnw)
+![](/assets/img/206062070718805-1*7oi2fFbRNkF9aRkkk89Lnw.gif)
 _Sending strings into shells using tmux_
 
 # The magic of tmux automation
 
 Now that we know all of the features we need to use from tmux, we can build tmux shortcuts, or key bindings, in order to trigger actions of sending keystrokes to the currently active pane.
 
-![](/assets/img/30017873620209-1*H_zhGZ35Hza9TgdlsLz3uA)
+![](/assets/img/30017873620209-1*H_zhGZ35Hza9TgdlsLz3uA.png)
 _Tmux key bindings for sending keystrokes_
 
 The “tmux.conf” lines above consist of two environment variables that hold two strings that will be send to the terminal later and two key bindings that will first send the key sequence **\_python3 -c ‘import pty;pty.spawn(\\”/bin/bash\\”)’\_** followed by a **\_\<Enter\>\_**, and then send the sequence **\_C-z “stty raw -echo” Enter fg Enter reset Enter $shellexports Enter\_**. Note that “Enter” is not the word itself, but the \*keystroke\*, that is, a newline character. Tmux has a set of words that it recognizes as certain keyboard keys and “Enter” is one of them.
@@ -57,7 +57,7 @@ Here you might be thinking: “but why are you using two shortcuts instead of ju
 
 Now every time you get a non-interactive shell, you can simply hit **_Ctrl-aqq_** in order to trigger the first binding (**_Ctrl-aq_**) and then sending the second part (**_Ctrl-q_**). Enjoy:
 
-![](/assets/img/204721341810793-1*m6JNfZPRqZ6B5ahCfP2CMQ)
+![](/assets/img/204721341810793-1*m6JNfZPRqZ6B5ahCfP2CMQ.png)
 
 Fully automated interactive shell from a non-interactive one
 
