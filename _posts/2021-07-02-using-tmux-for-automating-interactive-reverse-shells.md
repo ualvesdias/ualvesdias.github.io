@@ -8,9 +8,7 @@ mermaid: true
 pin: false
 ---
 
-# Using tmux for automating interactive reverse shells
-
-## Automating the process of converting a non-interactive reverse shell to a fully interactive TTY.
+> Automating the process of converting a non-interactive reverse shell to a fully interactive TTY.
 
 ![](/assets/img/321762811010236-1*NRbYPaweiL76Qh-RIFCY5g.png)
 
