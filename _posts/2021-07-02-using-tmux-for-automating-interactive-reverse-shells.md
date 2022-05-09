@@ -3,7 +3,7 @@ title: "Using tmux for automating interactive reverse shells"
 date: 2021-07-02
 categories: [Linux, Infosec]
 tags: [linux, terminal, tmux, pentest, reverse-shell]
-author: Ulisses Alves
+author: Odysseus
 mermaid: true
 pin: false
 ---

@@ -4,21 +4,22 @@ date: 2019-04-24 09:00:00 -0300
 categories: [Machine Learning]
 mermaid: true
 tags: [machine-learning, python]
+author: Odysseus
 ---
 
-Hey you! So, here I am with my first post of 2019. And here, I'm going to write about a very cool thing that I learned a few weeks ago.  
+> Hey you! So, here I am with my first post of 2019. And here, I'm going to write about a very cool thing that I learned a few weeks ago.  
   
-# But first the background story
+## But first the background story
   
 I'm taking an interest in how machine learning systems work and mostly how I can apply them to data science problems. Digging up the internet on the fundamentals, I've found [a very cool publication](http://cs.williams.edu/~freund/cs136-073/GardnerHexapawn.pdf) from 1962 where professor Martin Gardner explains how to build a machine out of matchboxes (that's right, matchboxes) that can learn how to play a game from scratch and even master it.  
 The process is actually very clever and it's an adaptation of a previous experiment where a guy builds a machine with more than 300 matchboxes to play tic-tac-toe to perfection.  
 
-# What I did
+## What I did
 
 In short, I've written a python code that mimics Prof. Gardner's experiment, just like as if I was using real matchboxes. I'm taking a more technical approach here, which means that I am teaching a computer how to play and master a game.
 
 
-# The game
+## The game
 
 The game used to teach the machine is actually a much simpler version of chess. It's called Hexapawn and it's played on a 3 by 3 board of black and white squares and a total of six pawns, three for each player. They are placed on the first and last rows of the board. The moviments of the pieces are just like those of the pawns on a standard chess game: they move only forward one square at a time and they can also capture an opponent piece if it stands on one of the two diagonal squares of the next row. The exceptions are that in Hexapawn there's no en passant move and there are no two square moves for their first movement. Also, there's no pawn promotion.  
   
@@ -29,7 +30,7 @@ To win a game, a player must be in one of the following situations:
   
 Based on this, we now know all the information needed to play the game.  
   
-# How the machine learns the game? Positive and negative reinforcements
+## How the machine learns the game? Positive and negative reinforcements
   
 This is the interesting part. How to make a mechanical system out of matchboxes that mimics a learning style? And how to simulate this system in a python code?  
   
@@ -47,12 +48,14 @@ On the first case, if the machine wins the game, we simply take all of the thing
   
 For the second case, instead of removing things, we're adding. But we're going to add a thing that has the same color of the thing representing the winning move of the last game. This way we are increasing the probability that the machine will choose that move again in future games, despite of the fact that it will still be able to make the wrong moves even having a winning move available. This learning process is called positive reinforcement, because we are adding something to the system.  
   
-# The Python code
+## The Python code
 
 When I read about this machine learning game, the first thing that came to my mind was that I wanted to implement this in Python and put it in a Telegram bot. So [here](https://github.com/ualvesdias/HexaPawnGame) is the code and [here](https://t.me/hexapawnbot) is the Telegram bot. To represent the matchboxes I used a python dictionary. I came up with a system to represent the board states and the moves with numbers, and for each of the machine's losses, I can remove the moves that cause the loss as well as all of the other moves in the case of winning (I opted not to go with the probability approach. Also, keep in mind that this choice is a negative reinforcement. I'm removing items from the system that will cause the machine to "learn" and apply this learning next time it bumps into the same situation).
 
-***
+## Conclusion
 
 Well, that's it. This was a really fun project to make. I learned so much about the fundamentals of machine learning, and I value the fundamentals a lot! One last thing: if you found an error of any kind or just have a sugestion of improvement for this article or the python code, dont hesitate in contact me at ulisses.alves@protonmail.com. I'll be more than happy to get a feedback from you!  
   
-## UOLAYFIRERTRUAESBEILHIDUBGSCNOKLYFUROUSOECYACSSSTUSNOIKHOYLHOSAUEBMLOEC
+---
+
+**\\x07\\x44\\x42\\x01\\x59\\x13\\x44**

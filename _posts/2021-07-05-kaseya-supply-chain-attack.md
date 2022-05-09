@@ -3,12 +3,8 @@ created: 2022-05-07T01:39:05 (UTC -03:00)
 title: "Kaseya Supply Chain Attack"
 tags: []
 source: https://medium.com/@ualvesdias/kaseya-supply-chain-attack-c3ff050cbadf
-author: Ulisses Alves
+author: Odysseus
 ---
-
-# Kaseya Supply Chain Attack
-
-![](https://miro.medium.com/max/700/1*sYXZ_rUI2mKNzWwSo_S0PQ.png)
 
 # Introdução
 
