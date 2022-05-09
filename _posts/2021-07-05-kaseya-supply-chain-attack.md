@@ -118,7 +118,7 @@ Assim que mais atualizações forem acontecendo, eu altero o post original para 
 # Referências
 
 -   [Kaseya supply chain attack targeting MSPs to deliver REvil ransomware — TRUESEC Blog](https://blog.truesec.com/2021/07/04/kaseya-supply-chain-attack-targeting-msps-to-deliver-revil-ransomware/)
--   [Kaseya supply chain attack delivers mass ransomware event to US companies | by Kevin Beaumont | Jul, 2021 | DoublePulsar](https://doublepulsar.com/kaseya-supply-chain-attack-delivers-mass-ransomware-event-to-us-companies-76e4ec6ec64b)
+-   [Kaseya supply chain attack delivers mass ransomware event to US companies](https://doublepulsar.com/kaseya-supply-chain-attack-delivers-mass-ransomware-event-to-us-companies-76e4ec6ec64b)
 -   [Mark Loman @🏡 no Twitter: “If your endpoint is hit, the initial ransom demand is 44,999 USD. https://t.co/gSWbxYJbeX" / Twitter](https://twitter.com/markloman/status/1411053456983564300)
 -   [Crticial Ransomware Incident in Progress : msp (reddit.com)](https://www.reddit.com/r/msp/comments/ocggbv/crticial_ransomware_incident_in_progress/)
 -   [UPDATED: Thousands attacked as REvil ransomware hijacks Kaseya VSA — Malwarebytes Labs | Malwarebytes Labs](https://blog.malwarebytes.com/cybercrime/2021/07/shutdown-kaseya-vsa-servers-now-amidst-cascading-revil-attack-against-msps-clients/#detection-tool)
