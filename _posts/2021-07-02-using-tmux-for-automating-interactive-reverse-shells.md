@@ -6,11 +6,6 @@ tags: [linux, terminal, tmux, pentest, reverse-shell]
 author:
 	name: Ulisses Alves
 mermaid: true
-image:
-	src: /path/to/image/file
-	width: 1000
-	height: 400
-	alt: image alternative text
 pin: false
 ---
 
