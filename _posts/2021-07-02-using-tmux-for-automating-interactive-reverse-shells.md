@@ -57,7 +57,8 @@ Here you might be thinking: “but why are you using two shortcuts instead of ju
 Now every time you get a non-interactive shell, you can simply hit **_Ctrl-aqq_** in order to trigger the first binding (**_Ctrl-aq_**) and then sending the second part (**_Ctrl-q_**). Enjoy:
 
 ![](/assets/img/204721341810793-1*m6JNfZPRqZ6B5ahCfP2CMQ.gif)
+_Fully automated interactive shell from a non-interactive one_
 
-Fully automated interactive shell from a non-interactive one
+---
 
 **\\x07\\x44\\x42\\x01\\x59\\x13\\x44**
