@@ -8,13 +8,11 @@ mermaid: true
 pin: false
 ---
 
-# White Box Penetration Testing: “Cheating” in order to boost impact and value
-
 Almost every professional pentester is always thrilled when a black box pentesting comes along, however it’s probably in white box that you’ll be able to give your reports more meaning.
 
 ![Credit: [https://www.seekpng.com/png/detail/17-171123\_black-and-white-box-clip-art-black-white.png](https://medium.com/r/?url=https%3A%2F%2Fwww.seekpng.com%2Fpng%2Fdetail%2F17-171123_black-and-white-box-clip-art-black-white.png)](https://cdn-images-1.medium.com/max/800/1*BMi0lGH5OO8ee_nwpmDo_w.png)
 
-### Introduction
+## Introduction
 
 Every pentester knows (or at least they should) that when a new project is about to happen, they need to know, among other things, what level of information they are going to receive from the client prior and during the execution. This is important because it will impact how the work will be conducted. There are nowadays some well known names that define in high level how much information the offensive team will get. These are black box, gray box and white box. It’s not hard to find places on the internet that explain these types of penetration testing. I’ll go over their main aspects so you and I are both on the same page:
 
@@ -44,11 +42,11 @@ This type of execution relies heavily on collaboration between the offensive tea
 
 I’ll go over the pros of white box testing next. For now the only con I can think of is being far from a real attack scenario. You can not have a realistic pentest while ask the devs or sysadmind for the admin password ([or can you?](https://medium.com/r/?url=https%3A%2F%2Fwww.social-engineer.org%2F)).
 
-### The real meaning of a penetration testing
+## The real meaning of a penetration testing
 
 When we execute a pentest, often times the only things we care about is to find those critical or high so we can once again prove ourselves as 1337 hackers. But what you may be forgetting is that we are professionals and as such, our real goal is to **_deliver value_** to whoever hired us. By value, I mean the client receives a product that’s worth the money they put into your pockets because they know that they can use the information in it to better secure their business. And we know very well that no matter how a vulnerability is discovered, if you find it, the’ll like.
 
-### Where white box thrives
+## Where white box thrives
 
 As I’ve already mentioned, in white box pentesting, we don’t have to worry too much on gathering information about the targets ourselves because all we have to do is ask. And here is where we can do a really great job.
 
@@ -62,7 +60,7 @@ Another good example for white box is when you are testing a very specific netwo
 
 I know what you may be thinking right now: “This is cheating!” Is it really? Are you playing a CTF or a video game? No. You’re a professional who’s being hired to do a job and it’s your responsibility to better advice your clients about the best possible options so they can have real value from your final product.
 
-### The real world is not so simple, though
+## The real world is not so simple, though
 
 Everything I said so far is wonderful in paper. However it’s not always how things go. Let me give you a dose of reality:
 
@@ -72,7 +70,7 @@ Another thing that happens a lot is when the client doesn’t want to pass infor
 
 Finally, this is for me the most dangerous situation: you get a client that is willing to answer all your questions. That’s great! But you must keep in mind that you CAN NOT trust 100% of what they say. Remember that they’re biased with their business and their product. I already heard a lot of “Oh, but there’s nothing worth looking in this server. It’s completely isolated and there’s no information there.” only to prove them wrong in the end. You can’t let them “poison” your mind, so be skeptical. Always!
 
-### Conclusion
+## Conclusion
 
 **For the clients**
 

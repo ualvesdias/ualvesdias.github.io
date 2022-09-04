@@ -5,8 +5,6 @@ tags: [infosec, pentesting, web, rate-limiting, aws,api-gateway, cloud]
 author: Odysseus
 ---
 
-# Using AWS API Gateway as a bypass for IP based rate limiting mechanisms
-
 > This is how you can bypass any IP based rate limiting defenses in your red teaming/pentesting engagements: An AWS Free Tier account and an API Gateway HTTP Proxy
 
 ## The situation
