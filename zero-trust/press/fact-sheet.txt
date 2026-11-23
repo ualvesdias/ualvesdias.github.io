@@ -1,0 +1,19 @@
+ZERO TRUST (in Portuguese: Confiança Zero)
+A puzzle game about physical penetration testing.
+
+Developer:      Ulisses Alves (one person; a first game)
+Release:        14 January 2027
+Platforms:      iPhone and iPad (App Store). An Android version is in preparation.
+App Store name: Zero Trust: Pentest Puzzle
+Price:          Free, with ads between jobs and never during one. One purchase (US$1.99) removes the ads.
+Languages:      English, Portuguese (Brazil)
+Genre:          Stealth puzzle, one player, plays offline
+Website:        https://ualvesdias.github.io/zero-trust/
+Press contact:  odisseualves@gmail.com
+
+Zero Trust is a puzzle game about a job few people know exists: physical penetration testing. Companies hire you to break
+into their own buildings, reach the server and walk out unseen, so they can learn how a real intruder would do it.
+Each of its 56 jobs is a building, or a whole fenced site of them, seen from above in pixel art. Rooms stay dark until you
+step into them. Guards walk their rounds, cameras sweep, presence sensors bring the guards, and the receptionist decides
+who gets in. You pick locks with a timing game, talk your way past the front desk, and read sticky notes and unlocked
+screens for passwords. Every job is authorized by the client in the story: it is a game, not a manual.

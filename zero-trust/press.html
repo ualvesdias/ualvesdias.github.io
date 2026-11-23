@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zero Trust: press kit</title>
+<meta name="description" content="A puzzle game about physical penetration testing. Companies hire you to break into their own buildings, reach the server and walk out unseen.">
+<meta property="og:title" content="Zero Trust: press kit"><meta property="og:description" content="A puzzle game about physical penetration testing. Companies hire you to break into their own buildings, reach the server and walk out unseen."><meta property="og:image" content="press/header.png"><meta property="og:type" content="website">
+<link rel="icon" href="press/icon-256.png">
+<style>
+:root{--void:#020406;--abyss:#07131e;--deep:#0b2236;--tide:#1a3a55;--wave:#1b4f86;--signal:#2f86ff;--flare:#8fdcff;--steel:#dcd6d5;--fog:#b4b6b8;--slate:#8e9a9f;--lead:#4f5b63}
+*{box-sizing:border-box}
+html{background:var(--void);-webkit-text-size-adjust:100%}
+body{margin:0;color:var(--steel);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:radial-gradient(1100px 620px at 28% -4%,rgba(47,134,255,.16),rgba(47,134,255,0) 62%),var(--void)}
+a{color:var(--flare)}
+a:hover{color:#fff}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.top{display:flex;justify-content:space-between;align-items:center;padding:18px 0 14px;font-size:12px;letter-spacing:.16em;text-transform:uppercase}
+.top span{color:var(--slate)} .top b{color:var(--steel);font-weight:600}
+.top a{text-decoration:none;border-bottom:1px solid var(--tide);padding-bottom:2px}
+.px{image-rendering:pixelated;image-rendering:crisp-edges}
+.hero{display:block;width:100%;height:auto;border:1px solid var(--tide)}
+.intro{display:grid;grid-template-columns:1fr auto;gap:20px 36px;align-items:end;padding:26px 0 8px}
+h1{margin:0;font-size:clamp(34px,7vw,58px);line-height:1.02;letter-spacing:.04em;text-transform:uppercase;font-weight:800;color:#fbfcfc;text-shadow:2px 2px 0 rgba(47,134,255,.35)}
+.lead{margin:14px 0 0;max-width:38em;font-size:18px;line-height:1.55;color:var(--steel)}
+.when{text-align:right;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);white-space:nowrap}
+.when b{display:block;color:var(--flare);font-size:15px;letter-spacing:.1em;margin-bottom:2px}
+.streak{height:1px;margin:22px 0 0;background:linear-gradient(90deg,rgba(47,134,255,.15),var(--signal) 30%,#fff 46%,var(--flare) 52%,rgba(47,134,255,.15))}
+.btns{display:flex;flex-wrap:wrap;gap:10px;padding:22px 0 6px}
+.btn{display:inline-block;padding:13px 20px 12px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;color:var(--void);background:var(--steel);border-top:1px solid #fff;clip-path:polygon(0 0,100% 0,100% calc(100% - 9px),calc(100% - 9px) 100%,0 100%)}
+.btn:hover{background:#fff;color:var(--void)}
+.btn.sec{color:var(--steel);background:var(--abyss);border:1px solid var(--lead)}
+.btn.sec:hover{color:#fff;border-color:var(--flare)}
+.note{margin:6px 0 0;font-size:13px;color:var(--slate)}
+section{padding:34px 0 0}
+h2{margin:0 0 14px;font-size:12px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--flare);display:flex;align-items:center;gap:12px}
+h2::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--tide),rgba(26,58,85,0))}
+.cols{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,8fr);gap:28px}
+.card{background:var(--abyss);border:1px solid var(--tide);border-top:1px solid var(--tide);padding:18px 20px;position:relative;clip-path:polygon(0 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%)}
+.card::before{content:"";position:absolute;left:-1px;top:-1px;width:64px;height:2px;background:var(--flare)}
+dl{margin:0} dt{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--slate);margin-top:12px} dt:first-child{margin-top:0} dd{margin:1px 0 0;color:var(--steel)}
+.about p{margin:0 0 14px} .about p:first-child{font-size:17px;color:#fbfcfc}
+.trailer{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:28px;align-items:start}
+video{display:block;width:100%;height:auto;aspect-ratio:886/1920;background:#000;border:1px solid var(--tide)}
+ul.feat{list-style:none;margin:0;padding:0} ul.feat li{padding:9px 0 9px 22px;border-bottom:1px solid rgba(26,58,85,.6);position:relative} ul.feat li::before{content:"";position:absolute;left:2px;top:17px;width:8px;height:8px;background:var(--signal);box-shadow:2px 2px 0 var(--wave)}
+.shots{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.shots a{display:block;border:1px solid var(--tide);background:#000;line-height:0} .shots a:hover{border-color:var(--flare)}
+.shots img{width:100%;height:auto}
+.art{display:grid;grid-template-columns:auto minmax(0,1fr);gap:22px;align-items:center}
+.art img.icon{width:128px;height:128px;border-radius:28px;border:1px solid var(--tide)}
+.art p{margin:0 0 6px}
+.medals{display:block;width:100%;height:auto;border:1px solid var(--tide);margin-top:6px}
+footer{margin:44px 0 0;padding:20px 0 40px;border-top:1px solid var(--tide);font-size:13px;color:var(--slate);display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+@media (max-width:760px){.intro{grid-template-columns:1fr}.when{text-align:left}.cols,.trailer{grid-template-columns:1fr}.trailer video{max-width:320px}.shots{grid-template-columns:repeat(2,minmax(0,1fr))}.art{grid-template-columns:1fr}}
+</style>
+</head><body><div class="wrap">
+<div class="top mono"><span><b>Zero Trust</b> / Press kit</span><a href="imprensa.html">Português</a></div>
+<img class="hero px" src="press/header.png" width="1920" height="823" alt="Zero Trust">
+<div class="intro"><div><h1>Zero Trust</h1><p class="lead">A puzzle game about physical penetration testing. Companies hire you to break into their own buildings, reach the server and walk out unseen.</p></div><div class="when mono"><b>14 January 2027</b>iPhone and iPad</div></div>
+<div class="streak"></div>
+<div class="btns mono"><a class="btn" href="press/zero-trust-press-kit.zip">Download the kit (14 MB)</a><a class="btn sec" href="#trailer">Watch the trailer</a><a class="btn sec" href="https://apps.apple.com/app/id6837482065">App Store page</a></div>
+<p class="note">The App Store page opens when pre-orders begin.</p>
+
+<section class="cols">
+<div><h2 class="mono">Fact sheet</h2><div class="card"><dl><dt>Developer</dt><dd>Ulisses Alves</dd><dt>Release</dt><dd>14 January 2027</dd><dt>Platforms</dt><dd>iPhone and iPad. An Android version is in preparation.</dd><dt>App Store name</dt><dd>Zero Trust: Pentest Puzzle</dd><dt>Price</dt><dd>Free, with ads between jobs and never during one. One purchase (US$1.99) removes them.</dd><dt>Languages</dt><dd>English and Portuguese (Brazil)</dd><dt>Genre</dt><dd>Stealth puzzle, one player, plays offline</dd><dt>Also known as</dt><dd>Confiança Zero, in Portuguese</dd><dt>Contact</dt><dd><a href="mailto:odisseualves@gmail.com">odisseualves@gmail.com</a></dd></dl></div></div>
+<div class="about"><h2 class="mono">The game</h2><p>Zero Trust is a puzzle game about a job few people know exists: physical penetration testing. Companies hire you to break into their own buildings, reach the server and walk out unseen, so they can learn how a real intruder would do it.</p><p>Each of its 56 jobs is a building, or a whole fenced site of them, seen from above in pixel art. Rooms stay dark until you step into them, so every job is read one door at a time: guards walk their rounds, cameras sweep, presence sensors bring the guards, and the receptionist decides who gets in.</p><p>You pick locks with a timing game, talk your way past the front desk by choosing who you are and whose name you drop, and read sticky notes and unlocked screens for passwords and schedules. Every job hides side findings, the kind of thing a real tester puts in the report, and they earn the stars that buy gear.</p><p>The jobs grow with the client: small businesses, mid-size companies, large corporations, critical infrastructure such as power stations, global conglomerates and finally multi-building complexes patrolled outside. The first job teaches by playing it, in the tester&#x27;s own dry voice.</p></div>
+</section>
+
+<section id="trailer"><h2 class="mono">Trailer</h2><div class="trailer">
+<div><video controls playsinline preload="metadata" poster="press/poster-en.png" src="press/zero-trust-trailer-en.mp4"></video>
+<p class="note">28 seconds, all of it real play from eight jobs, with the game&#x27;s own sounds.<br><a href="press/zero-trust-trailer-en.mp4" download>Download the trailer (MP4, 886 × 1920)</a></p></div>
+<div><h2 class="mono">What is in it</h2><ul class="feat"><li>56 jobs for six kinds of client</li><li>Four stars a job: finish it, never be noticed, bring back a side finding, bring back all of them</li><li>Night jobs, day jobs with the staff around, and jobs at closing time</li><li>Buildings with several floors, elevators and air ducts</li><li>Lock picking, pretexts at the front desk, cloned badges, looped cameras, jammed sensors</li><li>Checkpoints, so a ten-minute job is not lost on its last floor</li><li>Lock assist, for anyone who wants more time on the locks</li><li>69 Game Center achievements, a dozen of them surprises</li><li>Played with one finger, in portrait</li><li>No tracking, and the whole game plays offline</li></ul></div>
+</div></section>
+
+<section><h2 class="mono">Screenshots</h2><div class="shots"><a href="press/screenshots/en/1-title.png"><img class="px" loading="lazy" width="1290" height="2796" src="press/screenshots/en/1-title.png" alt="The title screen"></a><a href="press/screenshots/en/2-job-night.png"><img class="px" loading="lazy" width="1290" height="2796" src="press/screenshots/en/2-job-night.png" alt="A night job: the guard&#x27;s light inside"></a><a href="press/screenshots/en/3-lock-pick.png"><img class="px" loading="lazy" width="1290" height="2796" src="press/screenshots/en/3-lock-pick.png" alt="Picking a lock"></a><a href="press/screenshots/en/4-talk.png"><img class="px" loading="lazy" width="1290" height="2796" src="press/screenshots/en/4-talk.png" alt="Talking past the front desk"></a><a href="press/screenshots/en/5-plant.png"><img class="px" loading="lazy" width="1290" height="2796" src="press/screenshots/en/5-plant.png" alt="A water plant at night"></a><a href="press/screenshots/en/6-complex.png"><img class="px" loading="lazy" width="1290" height="2796" src="press/screenshots/en/6-complex.png" alt="A fenced site of several buildings"></a><a href="press/screenshots/en/7-job-day.png"><img class="px" loading="lazy" width="1290" height="2796" src="press/screenshots/en/7-job-day.png" alt="A day job, with the staff around"></a><a href="press/screenshots/en/8-debrief.png"><img class="px" loading="lazy" width="1290" height="2796" src="press/screenshots/en/8-debrief.png" alt="The debrief and its four stars"></a></div><p class="note">iPhone, 1290 × 2796. Click one for the full picture.</p></section>
+
+<section class="cols">
+<div><h2 class="mono">Icon and art</h2><div class="art"><img class="icon px" src="press/icon-256.png" width="256" height="256" alt="">
+<div><p><a href="press/icon-1024.png">App icon, 1024 × 1024</a></p><p><a href="press/header.png">Title art, 1920 × 823</a></p></div></div></div>
+<div><h2 class="mono">Achievements</h2><a href="press/achievements.png"><img class="medals px" loading="lazy" src="press/achievements.png" width="1368" height="960" alt="The 69 achievement medals, drawn in the game&#x27;s pixel art."></a><p class="note">The 69 achievement medals, drawn in the game&#x27;s pixel art.</p></div>
+</section>
+
+<section class="cols">
+<div><h2 class="mono">Who made it</h2><p>Zero Trust is made by one person, Ulisses Alves, and is his first game.</p></div>
+<div><h2 class="mono">Contact</h2><p>Questions, review builds and interviews: <a href="mailto:odisseualves@gmail.com">odisseualves@gmail.com</a></p></div>
+</section>
+
+<footer><span>Every job in the game is authorized by the client. It is a game, not a manual.</span><span><a href="index.html">Game page</a> · <a href="privacy.html">Privacy policy</a></span></footer>
+</div></body></html>
